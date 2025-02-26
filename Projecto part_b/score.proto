@@ -1,0 +1,7 @@
+
+syntax = "proto3";
+
+message ScoreUpdate {
+    repeated int32 astronaut_scores = 1 [packed=true];  // Array of 8 integers
+    repeated int32 space_mission_scores = 2 [packed=true];  // Array of 8 integers
+}
